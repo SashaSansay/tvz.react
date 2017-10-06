@@ -1,0 +1,45 @@
+{
+  "name": "tvz-react",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3.10"
+  },
+  "scripts": {
+    "start": "react-app -i",
+    "start:analyze": "react-app -a -d",
+    "start:release": "react-app -r -i",
+    "build": "react-app build -d -i",
+    "release": "react-app build -r -i",
+    "release:analyze": "react-app build -r -a -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:DmitriyBorodin/react-spa-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DmitriyBorodin/react-spa-starter/issues"
+  },
+  "homepage": "https://github.com/DmitriyBorodin/react-spa-starter#readme",
+  "author": {
+    "name": "Borodin Dmitriy",
+    "email": "dmitriy@borodin.site",
+    "url": "http://borodin.site/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.15.3",
+    "isomorphic-style-loader": "2.0.0",
+    "pretty-error": "2.1.0",
+    "prop-types": "15.5.8",
+    "react": "15.5.4",
+    "react-dom": "15.5.4",
+    "react-hot-loader": "3.0.0-beta.6",
+    "react-router": "4.1.1",
+    "react-router-dom": "4.1.1"
+  },
+  "devDependencies": {
+    "@techintouch/build-tools": "1.0.9"
+  }
+}
